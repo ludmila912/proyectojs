@@ -1,0 +1,29 @@
+
+.nav1 {
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 40px;
+}
+.nav2 {
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 40px;
+}
+.nav3 {
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 40px;
+}
+.nav4{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 40px;
+color: #ffffff;
+}
+
+
+
