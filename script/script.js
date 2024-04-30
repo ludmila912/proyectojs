@@ -89,5 +89,17 @@ console.log(pantalon4);
 
 const productos = ["remera2", "remera4", "pantalon3"];
 
-productos.push(pantalon1);
+productos.push(prompt ("Agregar producto al carrito"));
 console.log(productos);
+
+
+function sumarPrecio(min, max) {
+    let total = 0;
+
+    for (let i = min; i <= max; i++) {
+        total += i;
+    }
+    return total;
+}    
+
+console.log(sumarPrecio(1,2));
