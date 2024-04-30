@@ -93,7 +93,7 @@ productos.push(prompt ("Agregar producto al carrito"));
 console.log(productos);
 
 
-function sumarPrecio(min, max) {
+function sumarProductos(min, max) {
     let total = 0;
 
     for (let i = min; i <= max; i++) {
@@ -102,4 +102,4 @@ function sumarPrecio(min, max) {
     return total;
 }    
 
-console.log(sumarPrecio(1,2));
+console.log(sumarProductos(1,2));
