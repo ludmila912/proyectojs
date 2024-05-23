@@ -24,6 +24,17 @@ justify-content: space-around;
 margin: 40px;
 color: #ffffff;
 }
+.botonc {
+    background-color: #0000ffd7;
+    border: #0000ffd7;
+}
+.carrito {
+    color: white;
+    background-color: #0000ffd7;
+    font-size: 22px;
+    padding: 5px;
+    margin-right: 15px;
+}
 
 
 

@@ -1,4 +1,11 @@
-let Usuario1 = "Ludmila";
+const registrarse = document.querySelector("#registrarse");
+registrarse.addEventListener("click", mostrarAlerta);
+
+function mostrarAlerta() {
+    alert(prompt("ingrese su nombre de usuario"));
+}
+
+/*let Usuario1 = "Ludmila";
 let nomUsuario = prompt ("Ingrese su nombre de usuario");
 
 if (nomUsuario == "Ludmila") {
@@ -6,7 +13,7 @@ if (nomUsuario == "Ludmila") {
 } else {
     alert("Nombre de usuario incorrecto")
 };
-
+*/
 function sumar(ropa1, ropa2){
     console.log("El costo es de " + (ropa1 + ropa2)) ;
 }
